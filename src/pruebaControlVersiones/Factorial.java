@@ -13,6 +13,7 @@ public class Factorial {
         } else {
             System.out.println("Has introducido el número: " + num);
         }
+        System.out.println("RESULTADO - En versiones posteriores se calculará el factorial del número " + num);
         sc.close();
 	}
 	private static Scanner sc = new Scanner(System.in);
