@@ -47,5 +47,12 @@ public class Factorial {
 	        		return factorial;
 	        	}
 	        }
+        private static long factorialRec(int n) {
+            if (n == 0 || n == 1) {
+              return 1;
+            }
+
+            return n * factorialRec(n - 1);
         }
+}
 
